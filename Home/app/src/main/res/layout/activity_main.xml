@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.studios.patota.homecontrol.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="353dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="Registro"
+            android:textAlignment="center"
+            android:textColor="@color/colorMenu"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Usuario"
+        android:id="@+id/txtNombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre PC"
+        android:id="@+id/txtCorreo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:background="@drawable/btnslec"
+        android:onClick="registrar"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnslec"
+        android:onClick="actualizar"
+        android:text="Actualizar" />
+</LinearLayout>

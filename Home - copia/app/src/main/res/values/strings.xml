@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HomeControl</string>
+    <string name="btnsalida">Salir</string>
+    <string name="btlClave">Clave</string>
+    <string name="btnStylo">Stilo</string>
+    <string name="btnEcen">Encendio</string>
+    <string name="btnUser">Usuarios</string>
+    <string name="btnSonido">Sonido</string>
+    <string name="btnPremi">Premiun</string>
+    <string name="btnAsis">Asistencia</string>
+    <string name="btnacep">Aceptar</string>
+    <string name="btnIdioma">Idioma</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="btnAyuda">Ayuda</string>
+    <string name="textEjem">12345</string>
+    <string name="SisLuz">Sistema de luz</string>
+    <string name="SisPuer">Sistema de Puertas</string>
+    <string name="SisCom">Computadoras</string>
+    <string name="SisElec">Electrodomesticos</string>
+    <string name="Opc">Opciones</string>
+    <string name="Inv">Suministros</string>
+    <string name="Seg">Seguridad</string>
+    <string name="btnMas">+</string>
+    <string name="btnAdd">ADD</string>
+    <string name="btnCerrar">Cerrar Todo</string>
+    <string name="btnRegresar">Regresar</string>
+</resources>

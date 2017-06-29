@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.studios.patota.homecontrol.MainActivityLogin"
+    android:orientation="vertical"
+    android:id="@+id/fondo"
+    android:weightSum="1"
+    android:layout_alignParentBottom="true"
+    android:gravity="bottom"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/fondo1"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.29">
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fondo2"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_weight="0.95"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"
+
+            android:background="@drawable/caja_texto"
+            android:hint="Email"
+            android:textColor="@color/colorMenu2"
+            android:layout_alignRight="@+id/BtnAcep"
+            android:layout_alignEnd="@+id/BtnAcep"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:maxLines="1"
+            />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:textColor="@color/colorMenu2"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/caja_texto"
+            android:hint="12345"
+            android:layout_alignRight="@+id/BtnAcep"
+            android:layout_alignEnd="@+id/BtnAcep"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnslec"
+            android:onClick="onclickBtn"
+            android:text="@string/btnLogin"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="22dp"
+            android:layout_alignRight="@+id/BtnAcep"
+            android:textColor="@color/colorMenu"
+            android:layout_alignEnd="@+id/BtnAcep"
+            android:layout_alignLeft="@+id/BtnSali"
+            android:layout_alignStart="@+id/BtnSali"
+            android:id="@+id/button3"
+            android:textSize="18dp"/>
+
+
+        <Button
+            android:id="@+id/BtnAcep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/BtnSali"
+            android:layout_alignBottom="@+id/BtnSali"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btnslec1"
+            android:onClick="onclickBtn"
+            android:text="@string/btnAyuda"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/BtnSali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:background="@drawable/btnslec1"
+            android:onClick="sali"
+            android:text="@string/btnsalida"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18dp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

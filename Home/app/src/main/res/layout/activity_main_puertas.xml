@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fondoPue"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:gravity="bottom"
+    tools:context="com.studios.patota.homecontrol.MainActivityPuertas"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="273dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:text="@string/SisPuer"
+        android:textAlignment="center"
+        android:textColor="@color/colorMenu"
+        android:textSize="30dp"
+        android:layout_weight="0.24" />
+
+    <ListView
+        android:id="@+id/menuPuer"
+        android:layout_width="183dp"
+
+        android:layout_gravity="right"
+        android:layout_height="305dp"
+        android:background="@drawable/liststyle"
+        android:layout_weight="0.01" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.43"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:background="@drawable/btnslec1"
+            android:onClick="Salir"
+            android:text="@string/btnsalida" />
+
+        <Button
+            android:id="@+id/BtnMas"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/boton_mas"
+            android:text="@string/btnMas"
+            android:textColor="@color/colorMenu"
+            android:layout_alignTop="@+id/BtnAdd"
+            android:layout_alignRight="@+id/BtnAdd"
+            android:layout_alignEnd="@+id/BtnAdd"
+            android:layout_marginRight="106dp"
+            android:layout_marginEnd="106dp" />
+
+        <Button
+            android:id="@+id/BtnAdd"
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_add"
+            android:text="@string/btnAdd"
+            android:textColor="@color/colorMenu"
+            android:layout_above="@+id/button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
